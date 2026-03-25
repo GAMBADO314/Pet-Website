@@ -1,0 +1,32 @@
+header {
+    background: linear-gradient(to right, #f8e8ee, #fce4ec);
+    padding: 25px;
+    text-align: center;
+    border-bottom: 2px solid #eee;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    color: #444;
+    letter-spacing: 1px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    margin: 0;
+    background-color: #333;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
