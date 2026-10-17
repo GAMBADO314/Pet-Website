@@ -1,3 +1,4 @@
+
 @media (max-width: 768px) {
     .hero h2 {
         font-size: 2rem;
@@ -11,5 +12,18 @@
         flex-direction: column;
         gap: 10px;
         padding: 20px;
+    }
+
+    .about-feature {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-feature img {
+        width: 100%;
+    }
+
+    .about-feature-text h2 {
+        font-size: 1.7rem;
     }
 }

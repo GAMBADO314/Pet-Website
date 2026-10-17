@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="Cuddly Cosmetics Logo">
+        </a>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section class="contact-page">
+
+            <p class="section-label">GET IN TOUCH</p>
+
+            <h1>We'd Love to Hear From You.</h1>
+
+            <p class="contact-intro">
+                Have a question about our products or pet-care ideas?
+                Send us a message and we'll get back to you.
+            </p>
+
+            <form class="contact-form" id="contactForm" novalidate>
+
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" placeholder="Write your message here"></textarea>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+
+            <p id="formMessage" class="form-message"></p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Cuddly Cosmetics. All rights reserved.</p>
+    </footer>
+
+    <script src="js/contact.js"></script>
+
+</body>
+</html>
+

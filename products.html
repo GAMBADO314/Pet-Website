@@ -10,17 +10,87 @@
 </head>
 
 <body>
-    <header>
-        <h1>Products&Services</h1>
-        <p>here you can browse our selection of high-quality pet care products and services.</p>
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="Cuddly Cosmetics Logo">
+        </a>
     </header>
 
-     <nav class="navbar">
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html" class="active">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
     </nav>
+
+    <main>
+
+        <section class="products-page">
+    <h1>Our Products</h1>
+
+    <p class="products-intro">
+        Gentle grooming and wellness products made for your pet's everyday care.
+    </p>
+
+    <div class="products">
+
+        <div class="card">
+            <img src="images/honey-oaks.png" alt="Honey and Oaks pet paw butter">
+
+            <h3>Honey and Oaks</h3>
+            <p>Gentle paw butter designed to moisturize and soften dry paws.</p>
+            <p class="price">$14.99</p>
+            <button class="view-product">View Product</button>
+        </div>
+
+        <div class="card">
+            <img src="images/ginger-giggles.png" alt="Ginger Giggles pet wellness product">
+
+            <h3>Ginger Giggles</h3>
+            <p>A soothing paw-care product made for comfort and everyday wellness.</p>
+            <p class="price">$12.99</p>
+            <button class="view-product">View Product</button>
+        </div>
+
+        <div class="card">
+            <img src="images/berry-bliss.png" alt="Berry Bliss pet shampoo">
+
+            <h3>Berry Bliss</h3>
+            <p>A gentle grooming product with a fresh, clean pet-care feel.</p>
+            <p class="price">$11.99</p>
+            <button class="view-product">View Product</button>
+        </div>
+
+    </div>
+</section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Cuddly Cosmetics. All rights reserved.</p>
+    </footer>
+
+    <div class="product-modal" id="productModal">
+
+    <div class="modal-content">
+
+        <button class="modal-close" id="modalClose">&times;</button>
+
+        <img id="modalImage" src="" alt="Product image">
+
+        <h2 id="modalName"></h2>
+
+        <p id="modalDescription"></p>
+
+        <p class="price" id="modalPrice"></p>
+
+    </div>
+
+</div>
+    
+    <script src="js/script.js"></script>
+
 </body>
+</html>
